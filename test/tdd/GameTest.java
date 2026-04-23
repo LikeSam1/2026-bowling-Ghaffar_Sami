@@ -68,6 +68,30 @@ class GameTest {
 		}
 		assertEquals(24, game.score());
 	}
+	
+	@Test
+	void test_generale_quilles() {
+		game.roll(1);
+		game.roll(2);
+		game.roll(10);
+		game.roll(0);
+		game.roll(10);
+		game.roll(4);
+		game.roll(2);
+		game.roll(0);
+		game.roll(10);
+		game.roll(6);
+		game.roll(2);
+		game.roll(0);
+		game.roll(10);
+		game.roll(6);
+		game.roll(4);
+		game.roll(8);
+		game.roll(2);
+		game.roll(2);
+		game.roll(7);
+		assertEquals(122, game.score());
+	}
 
 }
 

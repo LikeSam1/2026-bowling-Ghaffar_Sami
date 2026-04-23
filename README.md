@@ -18,4 +18,5 @@
 - [x] 3eme Iteration -> 10 roll a 1 et puis 20 roll a 1 renvoie 30
 - [x] 4eme Iteration -> premier spare
 - [x] 5eme Iteration -> premier strike
-- [ ] 6eme Iteration -> cas generale
+- [x] 6eme Iteration -> cas generale
+- [ ] 6eme Iteration -> extention
