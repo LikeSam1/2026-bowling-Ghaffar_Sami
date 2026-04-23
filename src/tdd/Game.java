@@ -17,9 +17,20 @@ public class Game {
 		return false;
 	}
 	
+	public boolean strike(int i) {
+		if (i>0 && roll[i-1] == 10) {
+			return true;
+		}
+		return false;
+	}
+	
 	public int score() {
 		for (int i = 0; i < roll.length; i++) {
-			if (i%2 == 0 && spare(i)) {
+			if (strike(i)) {
+				score += roll[i] * 2;
+				i++;
+				score += roll[i] * 2;
+			} else if (spare(i)) {
 				score += roll[i] * 2;
 			} else {
 				score += roll[i];
