@@ -1,14 +1,16 @@
 # Identification du projet
 
-### NOM :
-### Prénom :
-### Groupe de TP :
-(Éditez ce README.md et remplacez `[ ]` par `[x]` (*x* minuscule) dans la bonne ligne ci-dessous)
+### NOM : Ghaffar
+### Prénom : Sami
+### Groupe de TP : B21
 - [ ] A11
 - [ ] A12
 - [ ] A21
 - [ ] A22
 - [ ] B11
 - [ ] B12
-- [ ] B21
+- [x] B21
 - [ ] B22
+
+## Backlogs
+- [ ] 1ere Iteration -> 
