@@ -16,4 +16,5 @@
 - [x] 1ere Iteration -> 20 roll a 0 renvoie 0
 - [x] 2eme Iteration -> 20 roll a 1 renvoie 20
 - [x] 3eme Iteration -> 10 roll a 1 et puis 20 roll a 1 renvoie 30
-- [ ] 4eme Iteration -> 1 roll a 7 puis 3 puis 4 et roll 17 a 0 renvoie 18
+- [x] 4eme Iteration -> premier spare
+- [ ] 5eme Iteration -> premier strike
